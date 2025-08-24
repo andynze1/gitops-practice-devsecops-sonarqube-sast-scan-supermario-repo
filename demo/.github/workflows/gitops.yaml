@@ -8,6 +8,7 @@ on:
 jobs:
 
   sonarqube_sast_scan:
+    name: "SonarQube SAST Scan"
     runs-on: ubuntu-latest
 
     steps:
